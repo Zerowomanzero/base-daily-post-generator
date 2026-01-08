@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Base Daily Post Generator",
   description: "Daily educational posts for Base",
   other: {
-    "base:app_id": "695f1d1f070a52e4aaef2fb",
+    "base:app_id": "695ffe1df070a52e4aaef2fb",
   },
 };
 
