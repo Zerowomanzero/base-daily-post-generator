@@ -1,6 +1,4 @@
-import type { MiniKitConfig } from "@base-org/minikit";
-
-const config: MiniKitConfig = {
+const config = {
   app: {
     name: "Base Daily Post Generator",
     description: "Generate calm, educational daily posts for Base",
