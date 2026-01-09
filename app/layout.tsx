@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Base Daily Post Generator",
   description: "Daily educational posts for Base",
+  other: {
+    "base:app_id": "695ffe1df070a52e4aaef2fb",
+  },
 };
 
 export default function RootLayout({
@@ -24,12 +27,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="base:app_id"
-          content="695ffe1df070a52e4aaef2fb"
-        />
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
